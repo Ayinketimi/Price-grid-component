@@ -98,3 +98,8 @@ h2, h3 {
 .price, .reason { width: 100%;}
 .container { width: 90%}
 }
+@media (max-width: 700px) {
+.wrapper { flex-direction: column;}
+.price, .reason { width: 80%;}
+.container { width: 80%}
+}
